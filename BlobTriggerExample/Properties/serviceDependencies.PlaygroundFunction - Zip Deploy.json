@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/PlaygroundFunction",
+      "type": "appInsights.azure",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
+    },
+    "storage2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/PlaygroundFunction/providers/Microsoft.ServiceLinker/linkers/BlobStorage_9BFBAE5202, /subscriptions/2583ee77-706c-4c37-bfc5-753e0a8ae4a2/resourceGroups/rglkplaygrounduks001/providers/Microsoft.Web/sites/PlaygroundFunction/providers/Microsoft.ServiceLinker/linkers/BlobStorage_671E2BA7E1",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/stlkblobuks001",
+      "type": "storage.azure",
+      "connectionId": "BlobStorage"
+    },
+    "storage1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/PlaygroundFunction/providers/Microsoft.ServiceLinker/linkers/AzureWebJobsStorage_EF58554B1B, /subscriptions/2583ee77-706c-4c37-bfc5-753e0a8ae4a2/resourceGroups/rglkplaygrounduks001/providers/Microsoft.Web/sites/PlaygroundFunction/providers/Microsoft.ServiceLinker/linkers/AzureWebJobsStorage_936E8EA0BC",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/stlkplaygrounduks001",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage",
+      "dynamicId": null
+    }
+  }
+}
